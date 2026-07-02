@@ -1,4 +1,5 @@
-package com.basics;
+package com.basics
+;
 
 public class Bike {
 
