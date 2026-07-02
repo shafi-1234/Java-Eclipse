@@ -1,4 +1,4 @@
-package com.languageFundaments;
+package com.languageFundamentals;
 
 public class Identifiers1 {
 
