@@ -5,6 +5,7 @@ public class Rectangle {
 	public static void main(String[] args) {
 		Rectangle a= new Rectangle();
 		a.calculateArea();
+		System.out.println("Area of triangle : "+a);
 		 
 
 	}
