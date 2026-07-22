@@ -15,7 +15,13 @@ public class predefinedobjDataTypes {
 	Integer i3=i2; //Integer to int Auto Unboxing
 	String st ="Shafi";
 	StringBuffer stb=new StringBuffer("Is good");
+	
 	StringBuilder stu = new StringBuilder("Boy");
+	{
+		stb.append(" and cool");
+		stu.append(" Ever");
+	}
+	
 	BigInteger bi = new BigInteger("856525652325412741264541254255452412541254124");
 	BigInteger bi1 = new BigInteger("8542541254");
 	BigDecimal bd = new BigDecimal("4541254125412541251.4541254125412412541541");
@@ -30,6 +36,7 @@ public class predefinedobjDataTypes {
 		System.out.println(obj.st);
 		System.out.println(obj.stb);
 		System.out.println(obj.stu);
+		System.out.println(obj.st+" "+obj.stb+" "+obj.stu);	
 		System.out.println(obj.bi);
 		System.out.println(obj.bd);
 		System.out.println("Addition of Big Integer : "+obj.bi.add(obj.bi));
@@ -40,7 +47,7 @@ public class predefinedobjDataTypes {
 		System.out.println("Addition of Big Decimal : "+obj.bd.add(obj.bd));
 		System.out.println("Multiplication of Big Decimal : "+obj.bd.multiply(obj.bd));
 		System.out.println("Subtraction of Big Decimal : "+obj.bd.subtract(obj.bd));
-		
+			
 	}
 
 }
