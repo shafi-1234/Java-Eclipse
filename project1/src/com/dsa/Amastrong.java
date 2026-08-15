@@ -19,6 +19,10 @@ public class Amastrong {
 			temp=temp/10;
 			count++;
 		}
+		//count A Nummber
+//		String digCount=Integer.toString(n);
+//		int count =digCount.length();
+		
 		temp=i;
 		while(temp>0) {
 			rem=temp%10;
