@@ -23,7 +23,13 @@ public class AutomorphicNumber {
 		int rem=0;
 		int org=n;
 		int square=n*n;
-		rem=square%100;
+		int count=0;
+		while(n>0) {
+			count++;
+			n=n/10;
+		}
+		int pow=Math.powExact(10, count);
+		rem=square%pow;
 		if(rem==org) {
 			status=true;
 		}
