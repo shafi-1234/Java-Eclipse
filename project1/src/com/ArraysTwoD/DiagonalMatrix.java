@@ -16,6 +16,7 @@ public class DiagonalMatrix {
 		swap(arr,row,col);
 		diagonal(arr,row,col);
 	}
+	
 	static void creatingArray(int arr[][],int row,int col,Scanner sc) {
 		System.out.println("Enter The NUmbers ");
 		for(int i=0;i<row;i++) {
