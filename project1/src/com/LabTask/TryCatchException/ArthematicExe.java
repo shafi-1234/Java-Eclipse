@@ -8,7 +8,9 @@ public class ArthematicExe {
 		
 //			System.out.println("Enter a Nummber : ");
 //			int s = sc.nextInt();
-
+			System.out.println(10/0.0);
+			System.out.println(0/10);
+			System.out.println(0.0/10);
 			System.out.println(10/2);
 			System.out.println(20/0);
 			
